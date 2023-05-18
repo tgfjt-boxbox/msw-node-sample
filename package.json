@@ -1,0 +1,14 @@
+{
+  "name": "hoge",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main"
+  },
+  "dependencies": {
+    "msw": "^1.2.1",
+    "node-fetch": "^2.6.6"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
